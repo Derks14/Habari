@@ -2,7 +2,7 @@
 ## About
 This is a simple mobile application that serves news from a certain RSS feed.
 ## Goal
-The goal of this project 
+The goal of this project solve Qodehub's intership challenge
 ## Features
 With this mobile application;
 - You can view a lists of news item
