@@ -4,6 +4,7 @@ import 'package:habari/models/article.dart';
 class TextSection extends StatelessWidget {
   final Article article;
 
+//  Constructor to pass
   TextSection(this.article);
 
   @override

@@ -19,6 +19,18 @@ class Detail extends StatelessWidget {
               CupertinoNavigationBar(middle: Text(article.title, style: TextStyle(fontSize: 20),),),
               ImageBanner(article.image),
               TextSection(article),
+              Container(
+                child: Row(
+                  children: <Widget>[
+                    Container(
+                      child: Icon(Icons.edit),
+                    ),
+                    Container(
+                      child: Text(article.author),
+                    )
+                  ],
+                ),
+              )
             ],
           ),
         ),
